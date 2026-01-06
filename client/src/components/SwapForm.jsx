@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-//Transaction Status Request SwapForm.jsx is in the notepad under the YCL question 
-
 const SwapForm = ({ onSwap }) => {
   const [fromToken, setFromToken] = useState("ETH");
   const [toToken, setToToken] = useState("USDC");
