@@ -136,9 +136,4 @@ export async function checkLiFiStatus(jobId) {
       throw new Error(e);
     }
   }
-
-  // fallback timer for demo
-  // const elapsedSec = (Date.now() - job.createdAt) / 1000;
-  // if (elapsedSec > 60) job.status = 'DONE';
-  // return { jobId, status: job.status, route: job.route };
 }
